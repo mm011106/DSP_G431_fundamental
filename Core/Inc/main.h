@@ -62,6 +62,20 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define DAC_CLK_Pin GPIO_PIN_1
+#define DAC_CLK_GPIO_Port GPIOF
+#define ADC_CLK_Pin GPIO_PIN_5
+#define ADC_CLK_GPIO_Port GPIOA
+#define ADC_DOUT_Pin GPIO_PIN_6
+#define ADC_DOUT_GPIO_Port GPIOA
+#define NC_Pin GPIO_PIN_7
+#define NC_GPIO_Port GPIOA
+#define ADC_ConvST_Pin GPIO_PIN_8
+#define ADC_ConvST_GPIO_Port GPIOA
+#define DAC_LOAD_Pin GPIO_PIN_9
+#define DAC_LOAD_GPIO_Port GPIOA
+#define DAC_DIN_Pin GPIO_PIN_11
+#define DAC_DIN_GPIO_Port GPIOA
 #define T_SWDIO_Pin GPIO_PIN_13
 #define T_SWDIO_GPIO_Port GPIOA
 #define T_SWCLK_Pin GPIO_PIN_14
